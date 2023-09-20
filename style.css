@@ -64,58 +64,6 @@ p {
     padding-left: 4px;
 }
 
-.card {
-    background-color: white;
-    border: 1px solid #ccc;
-    border-radius: 2em;
-    overflow: hidden;
-    padding: 2em;
-}
-
-.card:hover {
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-}
-
-.card img {
-    width: 100%;
-    transition: .3s ease;
-}
-
-
-.card img:hover {
-    width: 100%;
-    transform: rotate(45deg);
-}
-
-.card-text {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.card-text .name {
-    color: #222;
-    font-weight: 600;
-    font-size: 22px;
-}
-
-.card-text .name:hover {
-    color: #e43b3b;
-}
-
-.card-text .price {
-    color: #e43b3b;
-    font-weight: 600;
-    font-size: 22px;
-}
-
-.card .bottom p {
-    padding-bottom: 1em;
-    color: #777777;
-}
-
-
-
 navbar {
     display: flex;
     justify-content: space-between;
