@@ -164,67 +164,6 @@ header p {
     color: #777777;
 }
 
-
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 16px;
-    grid-row-gap: 16px;
-    padding:95.45px 1em 2em 1em;
-}
-
-.pizza {}
-
-.pizza.one {
-    grid-area: 1 / 1 / 2 / 2;
-}
-
-.pizza.two {
-    grid-area: 1 / 2 / 2 / 3;
-}
-
-.pizza.three {
-    grid-area: 1 / 3 / 2 / 4;
-}
-
-.pizza.four {
-    grid-area: 1 / 4 / 2 / 5;
-}
-
-.pizza.five {
-    grid-area: 2 / 1 / 3 / 2;
-}
-
-.pizza.six {
-    grid-area: 2 / 2 / 3 / 3;
-}
-
-.pizza.seven {
-    grid-area: 2 / 3 / 3 / 4;
-}
-
-.pizza.eight {
-    grid-area: 2 / 4 / 3 / 5;
-}
-
-.pizza.nine {
-    grid-area: 3 / 1 / 4 / 2;
-}
-
-.pizza.ten {
-    grid-area: 3 / 2 / 4 / 3;
-}
-
-.pizza.eleven {
-    grid-area: 3 / 3 / 4 / 4;
-}
-
-.pizza.twelve {
-    grid-area: 3 / 4 / 4 / 5;
-}
-
 .grid.footer {
     margin: auto;
     margin: 16px 16px 0 16px;
