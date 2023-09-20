@@ -43,16 +43,7 @@
             </div>
         </div>
     </header>
-   
-
-    <footer>
-        <div class="footer">
-            <div class="inner">
-                <div class="footer-item left"> </div>
-                <div class="footer-item right"> </div>
-            </div>
-        </div>
-    </footer>
+  
 </body>
 
 </html>
