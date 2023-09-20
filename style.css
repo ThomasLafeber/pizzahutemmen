@@ -163,29 +163,3 @@ header p {
     padding-bottom: 2em;
     color: #777777;
 }
-
-.grid.footer {
-    margin: auto;
-    margin: 16px 16px 0 16px;
-}
-
-.footer .inner {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    grid-column-gap: 0;
-    grid-row-gap: 0;
-}
-
-.footer-item {
-    height: 300px;
-}
-
-.footer-item.left {
-    background-color: white;
-
-}
-
-.footer-item.right {
-    background-color: white;
-}
