@@ -1,6 +1,15 @@
 <html>
 <body>
-
+ <navbar>
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+        </div>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="custom-pizza.php" class="btn secondary small">Maak je eigen pizza <span>❯</span></a></li>
+        </ul>
+    </navbar>
 <h1>Wat wilt u op uw pizza?
 U kunt ook onze <li><a href="index.php">vaste pizza's</a></li>nemen</h1>
 <h2>
