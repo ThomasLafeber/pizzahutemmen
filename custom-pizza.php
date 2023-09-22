@@ -13,8 +13,8 @@
             <a href="index.html"><img src="img/logo.png" alt="logo"></a>
         </div>
         <ul>
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
             <li><a href="custom-pizza.php" class="btn secondary small">Maak je eigen pizza <span>❯</span></a></li>
         </ul>
     </navbar>
