@@ -31,6 +31,39 @@
   <input type="submit"  id="submit" name="verstuur"><br>
   
 </form>
+Wilt u een 2e pizza? Zo ja, wat wilt u er op?
+<form>
+ <form action="verwerk.php" method="POST">
+ 2e pizza? <input type="checkbox" id="pizza2" name="pizza2"><br>
+  Tomatensaus<input type="checkbox" id="tomatensaus2" name="tomatensaus2"><br>
+  Ananas<input type="checkbox" id="ananas2" name="ananas2"><br>
+  Salami<input type="checkbox" id="salami2" name="salami2"><br>
+  Kaas<input type="checkbox" id="kaas2" name="kaas2"><br>
+  Knoflooksaus<input type="checkbox" id="knoflooksaus2" name="knoflooksaus2"><br>
+  Champignons<input type="checkbox" id="champignons2" name="champignons2"><br><br>
+  <input type="submit"  id="submit" name="verstuur"><br>
+ 
+</form>
 </h2>
+<?php
+$tomatensaus = $_POST["tomatensaus"];
+$ananas = $_POST["ananas"];
+$kaas = $_POST["kaas"];
+$salami = $_POST["salami"];
+$champignons = $_POST["champignons"];
+$knoflooksaus = $_POST["knoflooksaus"];
+
+$2pizza = $_POST["pizza2"];
+$tomatensaus2 = $_POST["tomatensaus2"];
+$ananas2 = $_POST["ananas2"];
+$kaas2 = $_POST["kaas2"];
+$salami2 = $_POST["salami2"];
+$champignons2 = $_POST["champignons2"];
+$knoflooksaus2 = $_POST["knoflooksaus2"];
+echo(dit heeft U besteld);
+Echo($tomatensaus+$ananas+$kaas+$salami+$champignons+$knoflooksaus)
+
+?>
+Uw bestelling is geplaatst met als volgende: 
 </body>
-</html>
+</html>\
