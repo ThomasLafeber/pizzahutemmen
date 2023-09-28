@@ -61,7 +61,7 @@ $salami2 = $_POST["salami2"];
 $champignons2 = $_POST["champignons2"];
 $knoflooksaus2 = $_POST["knoflooksaus2"];
 echo(dit heeft U besteld);
-Echo($tomatensaus+$ananas+$kaas+$salami+$champignons+$knoflooksaus)
+Echo($tomatensaus+$ananas+$kaas+$salami+$champignons+$knoflooksaus);
 
 ?>
 Uw bestelling is geplaatst met als volgende: 
