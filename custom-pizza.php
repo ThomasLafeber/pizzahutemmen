@@ -22,6 +22,7 @@
 <h2>
 <form>
  <form action="verwerk.php" method="POST">
+ <br>
   Tomatensaus<input type="checkbox" id="tomatensaus" name="tomatensaus"><br>
   Ananas<input type="checkbox" id="ananas" name="ananas"><br>
   Salami<input type="checkbox" id="salami" name="salami"><br>
