@@ -29,11 +29,9 @@
   Knoflooksaus<input type="checkbox" id="knoflooksaus" name="knoflooksaus" value="knoflooksaus, "><br>
   Champignons<input type="checkbox" id="champignons" name="champignons" value=" champignons, "><br><br>
   <input type="submit"  id="submit" name="verstuur"><br>
-  Uw bestelling is geplaatst met als volgende: <?php Echo $tomatensaus . $ananas . $kaas . $salami . $champignons . $knoflooksaus;
- ?>
 </form>
-</h2>
-</h1>
+
+
 <?php
 $tomatensaus = $_POST["tomatensaus"];
 $ananas = $_POST["ananas"];
@@ -50,6 +48,10 @@ $salami2 = $_POST["salami2"];
 $champignons2 = $_POST["champignons2"];
 $knoflooksaus2 = $_POST["knoflooksaus2"];
 ?>
+Uw bestelling is geplaatst met als volgende: <?php Echo $tomatensaus . $ananas . $kaas . $salami . $champignons . $knoflooksaus;
+ ?>
+ </h2>
+</h1>
 </header>
 </body>
 </html>
