@@ -60,7 +60,7 @@ $champignons2 = $_POST["champignons2"];
 $knoflooksaus2 = $_POST["knoflooksaus2"];
 
 ?>
-Uw bestelling is geplaatst met als volgende: <?php Echo $tomatensaus . $ananas . $kaas . $salami . $champignons . $knoflooksaus .;
+Uw bestelling is geplaatst met als volgende: <?php Echo $tomatensaus . $ananas . $kaas . $salami . $champignons . $knoflooksaus;
 ?>
 
 </body>
