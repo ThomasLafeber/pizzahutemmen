@@ -61,8 +61,6 @@ $knoflooksaus2 = $_POST["knoflooksaus2"];
 
 ?>
 Uw bestelling is geplaatst met als volgende: <?php Echo $tomatensaus . $ananas . $kaas . $salami . $champignons . $knoflooksaus .;
-?> <br> <br> <br>
-als u een tweede pizza heeft gekozen dan zit daar op <?php echo $tomatensaus2 . $ananas2 . $kaas2 . $salami2 . $champignons2 . $knoflooksaus2 .;
 ?>
 
 </body>
