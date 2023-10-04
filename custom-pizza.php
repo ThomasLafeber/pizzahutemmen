@@ -18,6 +18,7 @@
             <li><a href="custom-pizza.php" class="btn secondary small">Maak je eigen pizza <span>❯</span></a></li>
         </ul>
     </navbar>
+    <header>
 <h1>Wat wilt u op uw pizza?
 <h2>
  <form action="custom-pizza.php" method="POST">
@@ -43,6 +44,7 @@ Wilt u een 2e pizza? Zo ja, wat wilt u er op?
  
 </form>
 </h2>
+</h1>
 <?php
 $tomatensaus = $_POST["tomatensaus"];
 $ananas = $_POST["ananas"];
@@ -62,6 +64,6 @@ $knoflooksaus2 = $_POST["knoflooksaus2"];
 ?>
 Uw bestelling is geplaatst met als volgende: <?php Echo $tomatensaus . $ananas . $kaas . $salami . $champignons . $knoflooksaus;
 ?>
-
+</header>
 </body>
 </html>
