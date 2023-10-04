@@ -22,26 +22,12 @@
 <h1>
 <h2>
  <form action="custom-pizza.php" method="POST">
- <br>
   Tomatensaus<input type="checkbox" id="tomatensaus" name="tomatensaus" value="tomatensaus, "><br>
   Ananas<input type="checkbox" id="ananas" name="ananas" value="ananas, "><br>
   Salami<input type="checkbox" id="salami" name="salami" value="salami, "><br>
   Kaas<input type="checkbox" id="kaas" name="kaas" value="kaas, "><br>
   Knoflooksaus<input type="checkbox" id="knoflooksaus" name="knoflooksaus" value="knoflooksaus, "><br>
   Champignons<input type="checkbox" id="champignons" name="champignons" value=" champignons"><br><br>
-  
-Wilt u een 2e pizza? Zo ja, wat wilt u er op?
-<br>
-
- 2e pizza? <input type="checkbox" id="pizza2" name="pizza2"><br>
-  Tomatensaus<input type="checkbox" id="tomatensaus2" name="tomatensaus2"><br>
-  Ananas<input type="checkbox" id="ananas2" name="ananas2"><br>
-  Salami<input type="checkbox" id="salami2" name="salami2"><br>
-  Kaas<input type="checkbox" id="kaas2" name="kaas2"><br>
-  Knoflooksaus<input type="checkbox" id="knoflooksaus2" name="knoflooksaus2"><br>
-  Champignons<input type="checkbox" id="champignons2" name="champignons2"><br><br>
-  <input type="submit"  id="submit" name="verstuur"><br>
- 
 </form>
 </h2>
 </h1>
