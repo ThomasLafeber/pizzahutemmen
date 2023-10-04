@@ -20,21 +20,18 @@
     </navbar>
 <h1>Wat wilt u op uw pizza?
 <h2>
-<form>
- <form action="verwerk.php" method="POST">
+ <form action="custom-pizza.php" method="POST">
  <br>
-  Tomatensaus<input type="checkbox" id="tomatensaus" name="tomatensaus"><br>
-  Ananas<input type="checkbox" id="ananas" name="ananas"><br>
-  Salami<input type="checkbox" id="salami" name="salami"><br>
-  Kaas<input type="checkbox" id="kaas" name="kaas"><br>
-  Knoflooksaus<input type="checkbox" id="knoflooksaus" name="knoflooksaus"><br>
-  Champignons<input type="checkbox" id="champignons" name="champignons"><br><br>
-  <input type="submit"  id="submit" name="verstuur"><br>
+  Tomatensaus<input type="checkbox" id="tomatensaus" name="tomatensaus" value="tomatensaus,"><br>
+  Ananas<input type="checkbox" id="ananas" name="ananas" value="ananas,"><br>
+  Salami<input type="checkbox" id="salami" name="salami" value="salami,"><br>
+  Kaas<input type="checkbox" id="kaas" name="kaas" value="kaas,"><br>
+  Knoflooksaus<input type="checkbox" id="knoflooksaus" name="knoflooksaus" value="knoflooksaus en "><br>
+  Champignons<input type="checkbox" id="champignons" name="champignons" value=" champignons"><br><br>
   
-</form>
 Wilt u een 2e pizza? Zo ja, wat wilt u er op?
-<form>
- <form action="verwerk.php" method="POST">
+<br>
+
  2e pizza? <input type="checkbox" id="pizza2" name="pizza2"><br>
   Tomatensaus<input type="checkbox" id="tomatensaus2" name="tomatensaus2"><br>
   Ananas<input type="checkbox" id="ananas2" name="ananas2"><br>
@@ -63,7 +60,10 @@ $champignons2 = $_POST["champignons2"];
 $knoflooksaus2 = $_POST["knoflooksaus2"];
 
 ?>
-Uw bestelling is geplaatst met als volgende: <?php Echo($tomatensaus+$ananas+$kaas+$salami+$champignons+$knoflooksaus);
+Uw bestelling is geplaatst met als volgende: <?php Echo $tomatensaus . $ananas . $kaas . $salami . $champignons . $knoflooksaus .;
+?> <br> <br> <br>
+als u een tweede pizza heeft gekozen dan zit daar op <?php echo $tomatensaus2 . $ananas2 . $kaas2 . $salami2 . $champignons2 . $knoflooksaus2 .;
 ?>
+
 </body>
 </html>
