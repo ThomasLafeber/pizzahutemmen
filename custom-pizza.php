@@ -18,16 +18,15 @@
             <li><a href="custom-pizza.php" class="btn secondary small">Maak je eigen pizza <span>❯</span></a></li>
         </ul>
     </navbar>
-<header>
 <h1>Wat wilt u op uw pizza?
 <h2>
  <form action="custom-pizza.php" method="POST">
  <br>
-  Tomatensaus<input type="checkbox" id="tomatensaus" name="tomatensaus" value="tomatensaus"><br>
-  Ananas<input type="checkbox" id="ananas" name="ananas" value="ananas"><br>
-  Salami<input type="checkbox" id="salami" name="salami" value="salami"><br>
+  Tomatensaus<input type="checkbox" id="tomatensaus" name="tomatensaus" value="tomatensaus, "><br>
+  Ananas<input type="checkbox" id="ananas" name="ananas" value="ananas, "><br>
+  Salami<input type="checkbox" id="salami" name="salami" value="salami, "><br>
   Kaas<input type="checkbox" id="kaas" name="kaas" value="kaas"><br>
-  Knoflooksaus<input type="checkbox" id="knoflooksaus" name="knoflooksaus" value="knoflooksaus"><br>
+  Knoflooksaus<input type="checkbox" id="knoflooksaus" name="knoflooksaus" value="knoflooksaus, "><br>
   Champignons<input type="checkbox" id="champignons" name="champignons" value=" champignons"><br><br>
   
 Wilt u een 2e pizza? Zo ja, wat wilt u er op?
@@ -44,7 +43,6 @@ Wilt u een 2e pizza? Zo ja, wat wilt u er op?
  
 </form>
 </h2>
-</header>
 <?php
 $tomatensaus = $_POST["tomatensaus"];
 $ananas = $_POST["ananas"];
