@@ -28,6 +28,8 @@
   Kaas<input type="checkbox" id="kaas" name="kaas" value="kaas, "><br>
   Knoflooksaus<input type="checkbox" id="knoflooksaus" name="knoflooksaus" value="knoflooksaus, "><br>
   Champignons<input type="checkbox" id="champignons" name="champignons" value=" champignons"><br><br>
+  <input type="submit"  id="submit" name="verstuur"><br>
+ 
 </form>
 </h2>
 </h1>
