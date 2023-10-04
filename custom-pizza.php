@@ -19,7 +19,7 @@
         </ul>
     </navbar>
     <header>
-<h1>Wat wilt u op uw pizza?
+<h1>
 <h2>
  <form action="custom-pizza.php" method="POST">
  <br>
