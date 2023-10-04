@@ -27,7 +27,7 @@
   Salami<input type="checkbox" id="salami" name="salami" value="salami, "><br>
   Kaas<input type="checkbox" id="kaas" name="kaas" value="kaas, "><br>
   Knoflooksaus<input type="checkbox" id="knoflooksaus" name="knoflooksaus" value="knoflooksaus, "><br>
-  Champignons<input type="checkbox" id="champignons" name="champignons" value=" champignons"><br><br>
+  Champignons<input type="checkbox" id="champignons" name="champignons" value=" champignons, "><br><br>
   <input type="submit"  id="submit" name="verstuur"><br>
  
 </form>
@@ -48,10 +48,11 @@ $kaas2 = $_POST["kaas2"];
 $salami2 = $_POST["salami2"];
 $champignons2 = $_POST["champignons2"];
 $knoflooksaus2 = $_POST["knoflooksaus2"];
-
 ?>
+<h16>
 Uw bestelling is geplaatst met als volgende: <?php Echo $tomatensaus . $ananas . $kaas . $salami . $champignons . $knoflooksaus;
 ?>
+<h16>
 </header>
 </body>
 </html>
