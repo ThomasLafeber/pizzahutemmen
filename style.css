@@ -33,6 +33,10 @@ p {
     transition: .2s ease;
 }
 
+.btn:hover {
+    background-color: #fbb200;
+}
+
 .btn.small {
     background-color: #e43b3b;
     padding: .5em 1em;
@@ -40,6 +44,10 @@ p {
     letter-spacing: 1.5;
     font-weight: 600;
     font-size: 1em;
+}
+
+.btn.small:hover {
+    background-color: #fbb200;
 }
 
 .btn span {
