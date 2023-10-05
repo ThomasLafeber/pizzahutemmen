@@ -33,10 +33,6 @@ p {
     transition: .2s ease;
 }
 
-.btn:hover {
-    background-color: #fbb200;
-}
-
 .btn.small {
     background-color: #e43b3b;
     padding: .5em 1em;
