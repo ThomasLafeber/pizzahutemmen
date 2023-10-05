@@ -22,7 +22,7 @@ p {
 }
 
 .btn {
-    background-color: #fbb200;
+    background-color: #e43b3b;
     color: white;
     text-decoration: none;
     padding: 1em 2em;
@@ -33,23 +33,17 @@ p {
     transition: .2s ease;
 }
 
-.btn {
-    background-color: #e43b3b;
-}
-
 .btn:hover {
     background-color: #fbb200;
 }
 
 .btn.small {
+    background-color: #e43b3b;
     padding: .5em 1em;
     border-radius: 20px;
     letter-spacing: 1.5;
     font-weight: 600;
     font-size: 1em;
-}
-.btn.small:hover{
-    background-color: #e43b3b;
 }
 
 .btn span {
