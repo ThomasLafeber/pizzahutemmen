@@ -33,21 +33,11 @@ p {
     transition: .2s ease;
 }
 
-
-
-.btn.primary {
-    background-color: #fbb200;
-}
-
-.btn.primary:hover {
+.btn {
     background-color: #e43b3b;
 }
 
-.btn.secondary {
-    background-color: #e43b3b;
-}
-
-.btn.secondary:hover {
+.btn:hover {
     background-color: #fbb200;
 }
 

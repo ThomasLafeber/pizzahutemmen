@@ -44,7 +44,7 @@
 
             <li><a href="contact.html">Contact</a></li>
 
-            <li><a href="custom-pizza.php" class="btn secondary small">Maak je eigen pizza <span>❯</span></a></li>
+            <li><a href="custom-pizza.php" class="btn small">Maak je eigen pizza <span>❯</span></a></li>
 
         </ul>
 
@@ -62,9 +62,9 @@
 
                 <div style="display: flex;">
 
-                    <a href="#menu" class="btn secondary">Bekijk ons menu <span>❯</span></a>
+                    <a href="#menu" class="btn">Bekijk ons menu <span>❯</span></a>
 
-                    <a href="custom-pizza.php" class="btn secondary" style="margin-left: 1em;">Maak je eigen pizza
+                    <a href="custom-pizza.php" class="btn" style="margin-left: 1em;">Maak je eigen pizza
 
                         <span>❯</span></a>
 
