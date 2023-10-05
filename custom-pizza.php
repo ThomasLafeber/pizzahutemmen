@@ -13,7 +13,7 @@
             <a href="index.html"><img src="img/logo.png" alt="logo"></a>
         </div>
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="custom-pizza.php" class="btn secondary small">Maak je eigen pizza <span>❯</span></a></li>
         </ul>
@@ -21,7 +21,7 @@
     <header>
 <h1>
 <h2>
-wat wilt u up uw pizza <br>
+Wat wilt u op uw pizza? <br>
  <form action="custom-pizza.php" method="POST">
   Tomatensaus<input type="checkbox" id="tomatensaus" name="tomatensaus" value="tomatensaus, "><br>
   Ananas<input type="checkbox" id="ananas" name="ananas" value="ananas, "><br>
