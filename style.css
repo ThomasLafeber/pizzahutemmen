@@ -48,6 +48,10 @@ p {
 .btn:hover {
     background-color: #fbb200;
 }
+.knopje {
+  width: 20px
+  height 20px
+}
 navbar {
     display: flex;
     justify-content: space-between;
@@ -60,6 +64,7 @@ navbar {
     box-sizing: border-box;
     z-index: 9;
 }
+
 
 navbar .logo img {
     width: 150px;
@@ -147,4 +152,3 @@ header p {
     padding-bottom: 2em;
     color: #777777;
 }
-/* The container */
