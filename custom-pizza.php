@@ -10,7 +10,7 @@
 <body>
  <navbar>
         <div class="logo">
-            <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+            <a href="index.php"><img src="img/logo.png" alt="logo"></a>
         </div>
         <ul>
             <li><a href="index.php">Home</a></li>
