@@ -45,7 +45,9 @@ p {
 .btn span {
     padding-left: 4px;
 }
-
+.btn:hover {
+    background-color: #fbb200;
+}
 navbar {
     display: flex;
     justify-content: space-between;
