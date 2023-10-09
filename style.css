@@ -51,6 +51,8 @@ p {
 .knopje {
   width: 20px
   height 20px
+  padding-right: 35px;
+  margin-bottom: 12px;
 }
 .form {
     margin-left: 10px;
