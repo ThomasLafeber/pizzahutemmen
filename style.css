@@ -52,6 +52,9 @@ p {
   width: 20px
   height 20px
 }
+form{
+    padding-left: 10px;
+}
 navbar {
     display: flex;
     justify-content: space-between;
