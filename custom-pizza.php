@@ -21,17 +21,18 @@
     <header>
 <h1>
 <h2>
+<div class="form">
 Wat wilt u op uw pizza? <br>
 <form action="custom-pizza.php" method="POST">
-  Tomatensaus<input type="checkbox" id="tomatensaus" name="tomatensaus" value="tomatensaus, " class="knopje"><br>
-  Ananas<input type="checkbox" id="ananas" name="ananas" value="ananas, " ><br>
-  Salami<input type="checkbox" id="salami" name="salami" value="salami, "><br>
-  Kaas<input type="checkbox" id="kaas" name="kaas" value="kaas, "><br>
-  Knoflooksaus<input type="checkbox" id="knoflooksaus" name="knoflooksaus" value="knoflooksaus, "><br>
-  Champignons<input type="checkbox" id="champignons" name="champignons" value=" champignons, "><br><br>
+  Tomatensaus<input type="checkbox" id="tomatensaus" name="tomatensaus" value="tomatensaus" class="knopje"><br>
+  Ananas<input type="checkbox" id="ananas" name="ananas" value="ananas, " class="knopje" ><br>
+  Salami<input type="checkbox" id="salami" name="salami" value="salami, " class="knopje"><br>
+  Kaas<input type="checkbox" id="kaas" name="kaas" value="kaas, " class="knopje"><br>
+  Knoflooksaus<input type="checkbox" id="knoflooksaus" name="knoflooksaus" value="knoflooksaus, " class="knopje"><br>
+  Champignons<input type="checkbox" id="champignons" name="champignons" value=" champignons, " class="knopje"><br><br>
   <input type="submit"  id="submit" name="verstuur"><br>
 </form>
-
+</div>
 
 <?php
 $tomatensaus = $_POST["tomatensaus"];
