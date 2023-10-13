@@ -53,7 +53,7 @@ $knoflooksaus2 = $_POST["knoflooksaus2"];
 Uw bestelling:
 <br>
 <br>
- <?php Echo $tomatensaus . $ananas . $kaas . $salami . $champignons . $knoflooksaus;
+ Pizza met <?php Echo $tomatensaus . $ananas . $kaas . $salami . $champignons . $knoflooksaus;
  ?>
  </h2>
 </h1>
