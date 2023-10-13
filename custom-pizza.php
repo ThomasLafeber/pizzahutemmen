@@ -27,7 +27,8 @@ Wat wilt u op uw pizza? <br>
 
   Tomatensaus<input type="checkbox" id="tomatensaus" name="tomatensaus" value="tomatensaus, " class="knopje"><br>
    Kaas<input type="checkbox" id="kaas" name="kaas" value="kaas, " class="knopje"><br>
-   Salami<input type="checkbox" id="salami" name="salami" value="salami, " class="knopje"><br>
+ Salami<input type="checkbox" id="salami" name="salami" value="salami, " class="knopje" onclick="wegVis()"><br>
+  vis<input type="checkbox" id="vis" name="vis" value="vis, " class="knopje" onclick="wegSal()"><br>
    Champignons<input type="checkbox" id="champignons" name="champignons" value=" champignons, " class="knopje"><br>
   Ananas<input type="checkbox" id="ananas" name="ananas" value="ananas, " class="knopje" ><br>
   Knoflooksaus<input type="checkbox" id="knoflooksaus" name="knoflooksaus" value="knoflooksaus, " class="knopje"><br><br>
@@ -54,7 +55,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
   $champignons2 = $_POST["champignons2"];
   $knoflooksaus2 = $_POST["knoflooksaus2"];
 
-  echo "Uw bestelling is een pizza met: <br>";
+  echo "Uw bestelling is een pizza met: <br><br>";
   echo $tomatensaus . $kaas . $salami . $champignons . $ananas . $knoflooksaus;
 }
 ?>
@@ -65,4 +66,23 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 </h1>
 </header>
 </body>
+<script>
+
+function wegVis(){
+  if(document.getElementById("vis").style.display == "none"){
+    document.getElementById("vis").style.display = "inline";
+  }else{
+  document.getElementById("vis").style.display = "none";
+}
+}
+
+function wegSal(){
+  if(document.getElementById("salami").style.display == "none"){
+    document.getElementById("salami").style.display = "inline";
+  }else{
+  document.getElementById("salami").style.display = "none";
+}
+}
+
+</script>
 </html>
