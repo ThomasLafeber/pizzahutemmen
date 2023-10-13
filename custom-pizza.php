@@ -24,12 +24,14 @@
 <div class="form">
 Wat wilt u op uw pizza? <br>
 <form action="custom-pizza.php" method="POST">
+
   Tomatensaus<input type="checkbox" id="tomatensaus" name="tomatensaus" value="tomatensaus, " class="knopje"><br>
+   Kaas<input type="checkbox" id="kaas" name="kaas" value="kaas, " class="knopje"><br>
+   Salami<input type="checkbox" id="salami" name="salami" value="salami, " class="knopje"><br>
+   Champignons<input type="checkbox" id="champignons" name="champignons" value=" champignons, " class="knopje"><br><br>
   Ananas<input type="checkbox" id="ananas" name="ananas" value="ananas, " class="knopje" ><br>
-  Salami<input type="checkbox" id="salami" name="salami" value="salami, " class="knopje"><br>
-  Kaas<input type="checkbox" id="kaas" name="kaas" value="kaas, " class="knopje"><br>
   Knoflooksaus<input type="checkbox" id="knoflooksaus" name="knoflooksaus" value="knoflooksaus, " class="knopje"><br>
-  Champignons<input type="checkbox" id="champignons" name="champignons" value=" champignons, " class="knopje"><br><br>
+  
   <input type="submit"  id="submit" name="verstuur"><br>
 </form>
 </div>
@@ -53,7 +55,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
   $knoflooksaus2 = $_POST["knoflooksaus2"];
 
   echo "Uw bestelling is een pizza met: <br>";
-  echo $tomatensaus . $ananas . $kaas . $salami . $champignons . $knoflooksaus;
+  echo $tomatensaus . $kaas . $salami . $champignons . $ananas . $knoflooksaus;
 }
 ?>
 <br>
