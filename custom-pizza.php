@@ -66,6 +66,17 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
  </h2>
 </h1>
 </header>
+ <footer>
+Creators of the website ‎ ‎ ‎ ‎ ‎  Owner PH-Emmen  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ Locatie ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎Socials
+</footer>
+<footer>
+<sub>
+<a href="mailto:@example.com">133041@hondsrugcollege.nl</a> ‎ ‎ ‎ ‎ ‎ <a href="mailto:@example.com">SmiR@hondsrugcollege.nl </a> ‎ ‎ ‎ ‎ ‎ <a> Emmalaan 25 </a> ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎<a href="https://www.pizzahut.be/nl">Pizza Hut </a> <br> <a href="mailto:@example.com"> 133271@hondsrugcollege.nl</a> <br> <a href="mailto:@example.com">133582@hondsrugcollege.nl </a>
+
+ 
+
+</footer>
+
 </body>
 <script>
 
