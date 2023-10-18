@@ -65,6 +65,17 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 
  </h2>
 </h1>
+<div class="lege-pizza">
+
+            <div class="inner">
+
+                <img src= "img/lege-pizza.png" alt="PIZZA JUMPSCARE">
+
+            
+
+          
+</div> 
+        </div>
 </header>
  <footer>
 Creators of the website ‎ ‎ ‎ ‎ ‎  Owner PH-Emmen  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ Locatie ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎Socials
