@@ -157,6 +157,19 @@ header p {
     padding-bottom: 2em;
     color: #777777;
 }
+
+.lege-pizza {
+    width: 50%;
+    position: relative;
+}
+
+.lege-pizza img {
+    position: absolute;
+    width: 60%;
+    top: 1em;
+    left: 200px;
+    z-index: 2;
+}
 footer {
   text-align: left;
   padding: 10px;
