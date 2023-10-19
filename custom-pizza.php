@@ -31,7 +31,7 @@ Wat wilt u op uw pizza? <br>
  Salami<input type="checkbox" id="salami" name="salami" value="salami, " class="knopje" onclick="wegVis()"><br>
   vis<input type="checkbox" id="vis" name="vis" value="vis, " class="knopje" onclick="wegSal()"><br>
    Champignons<input type="checkbox" id="champignons" name="champignons" value=" champignons, " class="knopje"><br>
-  Ananas<input type="checkbox" id="ananas" name="ananas" value="ananas, " class="knopje" ><br>
+  Ananas<input type="checkbox" id="ananas" name="ananas" value="ananas, " class="knopje" onclick="anasbij()"><br>
   Knoflooksaus<input type="checkbox" id="knoflooksaus" name="knoflooksaus" value="knoflooksaus, " class="knopje"><br><br>
   
   <input type="submit"  id="submit" name="verstuur"><br>
@@ -70,22 +70,22 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
             <div class="inner">
 
                 <img src= "img/lege-pizza.png" alt="PIZZA JUMPSCARE">
+                <img id="ananass" src="img/ananas.png">
 
             
 
-          
-</div> 
+                      
+            </div> 
         </div>
 </header>
-<footer>
- ‎ ‎ ‎  ‎ ‎ ‎ ‎‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  Creators of the website‎ ‎ ‎  ‎ ‎ ‎ ‎‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎  ‎ ‎  Owner PH-Emmen ‎ ‎‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎   ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ Locatie ‎‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎Socials
+ <footer>
+Creators of the website ‎ ‎ ‎ ‎ ‎  Owner PH-Emmen  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ Locatie ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎Socials
 </footer>
 <footer>
 <sub>
-  ‎ ‎ ‎  ‎ ‎ ‎ ‎‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ <a href="mailto:@example.com">133041@hondsrugcollege.nl</a>  ‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎  ‎ ‎ <a href="mailto:@example.com">SmiR@hondsrugcollege.nl </a> ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎   ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎  <a> Emmalaan 25 </a> ‎ ‎ ‎  ‎ ‎ ‎ ‎‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎   <a href="https://www.pizzahut.be/nl">Pizza Hut </a> <br>  ‎ ‎ ‎  ‎ ‎ ‎ ‎‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  <a href="mailto:@example.com"> 133271@hondsrugcollege.nl</a>  ‎ ‎ ‎  ‎ ‎ ‎ ‎‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  <br>  ‎ ‎ ‎  ‎ ‎ ‎ ‎‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  <a href="mailto:@example.com">133582@hondsrugcollege.nl </a>
+<a href="mailto:@example.com">133041@hondsrugcollege.nl</a> ‎ ‎ ‎ ‎ ‎ <a href="mailto:@example.com">SmiR@hondsrugcollege.nl </a> ‎ ‎ ‎ ‎ ‎ <a> Emmalaan 25 </a> ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎<a href="https://www.pizzahut.be/nl">Pizza Hut </a> <br> <a href="mailto:@example.com"> 133271@hondsrugcollege.nl</a> <br> <a href="mailto:@example.com">133582@hondsrugcollege.nl </a>
 
-</footer>
-
+ 
 
 </footer>
 
@@ -102,6 +102,14 @@ function wegVis(){
 
 function wegSal(){
   if(document.getElementById("salami").style.display == "none"){
+    document.getElementById("salami").style.display = "inline";
+  }else{
+  document.getElementById("salami").style.display = "none";
+}
+}
+
+function anasbij(){
+  if(document.getElementById("ananas").style.display == ""){
     document.getElementById("salami").style.display = "inline";
   }else{
   document.getElementById("salami").style.display = "none";
