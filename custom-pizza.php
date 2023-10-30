@@ -70,9 +70,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
             <div class="inner">
 
                 <img src= "img/lege-pizza.png" alt="PIZZA JUMPSCARE">
-                
-                <img id="ananass" class="ananass" src="img/ananas.png">
-                
+                <img id="ananass" src="img/ananas.png">
+
             
 
                       
@@ -110,11 +109,10 @@ function wegSal(){
 }
 
 function anasbij(){
-   var checkBox = document.getElementById("ananas");
-   if (checkBox.checked == true){
-    document.getElementById("ananass").style.display = "block";
+  if(document.getElementById("ananas").style.display == ""){
+    document.getElementById("salami").style.display = "inline";
   }else{
-  document.getElementById("ananass").style.display = "none";
+  document.getElementById("salami").style.display = "none";
 }
 }
 
