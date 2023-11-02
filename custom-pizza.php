@@ -28,10 +28,10 @@ Wat wilt u op uw pizza? <br>
 
   Tomatensaus<input type="checkbox" id="tomatensaus" name="tomatensaus" value="tomatensaus, " class="knopje"><br>
    Kaas<input type="checkbox" id="kaas" name="kaas" value="kaas, " class="knopje"><br>
- Salami<input type="checkbox" id="salami" name="salami" value="salami, " class="knopje" onclick="wegVis()"><br>
-  vis<input type="checkbox" id="vis" name="vis" value="vis, " class="knopje" onclick="wegSal()"><br>
+ Salami<input type="checkbox" id="salami" name="salami" value="salami, " class="knopje" onclick="addSalami()"><br>
+  vis<input type="checkbox" id="vis" name="vis" value="vis, " class="knopje" onclick="addVis()"><br>
    Champignons<input type="checkbox" id="champignons" name="champignons" value=" champignons, " class="knopje"><br>
-  Ananas<input type="checkbox" id="ananas" name="ananas" value="ananas, " class="knopje" onclick="anasbij()"><br>
+  Ananas<input type="checkbox" id="ananas" name="ananas" value="ananas, " class="knopje" onclick="addAnanas()"><br>
   Knoflooksaus<input type="checkbox" id="knoflooksaus" name="knoflooksaus" value="knoflooksaus, " class="knopje"><br><br>
   
   <input type="submit"  id="submit" name="verstuur"><br>
@@ -71,6 +71,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 
                 <img src= "img/lege-pizza.png" alt="PIZZA JUMPSCARE">
                 <img id="ananass" src="img/ananass.jpg" style="display:none;">
+                <img id="salamie" src="img/salami.png" style="display:none;">
+                <img id="viss" src="img/vis.png" style="display:none;">
 
             
 
@@ -92,28 +94,61 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 </body>
 <script>
 
-function wegVis(){
-  if(document.getElementById("vis").style.display == "none"){
+
+
+function addSalami()
+{
+  //Knopje vis weg
+  if(document.getElementById("vis").style.display == "none")
+  {
     document.getElementById("vis").style.display = "inline";
-  }else{
-  document.getElementById("vis").style.display = "none";
-}
+  }
+  else
+  {
+    document.getElementById("vis").style.display = "none";
+  }
+  //Salami plaatje toevoegen
+  if(document.getElementById("salamie").style.display == "none"){
+      document.getElementById("salamie").style.display = "inline";
+    }else{
+    document.getElementById("salamie").style.display = "none";
+  }
+
 }
 
-function wegSal(){
-  if(document.getElementById("salami").style.display == "none"){
+function addVis()
+{
+  //Knopje salami weg
+  if(document.getElementById("salami").style.display == "none")
+  {
     document.getElementById("salami").style.display = "inline";
-  }else{
+  }else
+  {
   document.getElementById("salami").style.display = "none";
-}
+  }
+ //Vis plaatje toevoegen
+  if(document.getElementById("viss").style.display == "none")
+  {
+      document.getElementById("viss").style.display = "inline";
+  }else
+  {
+    document.getElementById("viss").style.display = "none";
+  }
 }
 
-function anasbij(){
-  if(document.getElementById("ananass").style.display == "none"){
+function addAnanas(){
+  //Plaatje ananas toevoegen
+   if(document.getElementById("ananass").style.display == "none"){
     document.getElementById("ananass").style.display = "inline";
   }else{
-  document.getElementById("ananass").style.display = "none";
+    document.getElementById("ananass").style.display = "none";
+  }
 }
+
+
+
+function salamiBijPlaatje(){
+  
 }
 
 </script>
