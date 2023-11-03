@@ -141,20 +141,26 @@ function addVis()
   }
 }
 
-function addAnanas(){
+function addAnanas()
+{
   //Plaatje ananas toevoegen
-   if(document.getElementById("ananass").style.display == "none"){
+   if(document.getElementById("ananass").style.display == "none")
+   {
     document.getElementById("ananass").style.display = "inline";
-  }else{
+   }else
+   {
     document.getElementById("ananass").style.display = "none";
-  }
+   }
 }
 
-function addKaas(){
-  //Plaatje ananas toevoegen
-   if(document.getElementById("kaass").style.display == "none"){
+function addKaas()
+{
+  //Plaatje kaas toevoegen
+   if(document.getElementById("kaass").style.display == "none")
+  {
     document.getElementById("kaass").style.display = "inline";
-  }else{
+  }else
+  {
     document.getElementById("kaass").style.display = "none";
   }
 }
