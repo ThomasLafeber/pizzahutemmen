@@ -45,13 +45,13 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
     $tomatensaus = $_POST["tomatensaus"];
   if(isset($_POST["ananas"]))
     $ananas = $_POST["ananas"];
-  if(isset($_POST["tomatensaus"]))
+  if(isset($_POST["kaas"]))
     $kaas = $_POST["kaas"];
-  if(isset($_POST["tomatensaus"]))
+  if(isset($_POST["salami"]))
     $salami = $_POST["salami"];
-  if(isset($_POST["tomatensaus"]))
+  if(isset($_POST["champignons"]))
     $champignons = $_POST["champignons"];
-  if(isset($_POST["tomatensaus"]))
+  if(isset($_POST["knoflooksaus"]))
     $knoflooksaus = $_POST["knoflooksaus"];
 
 
