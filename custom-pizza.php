@@ -41,20 +41,20 @@ Wat wilt u op uw pizza? <br>
 <?php
 if($_SERVER["REQUEST_METHOD"] == "POST")
 {
-  $tomatensaus = $_POST["tomatensaus"];
-  $ananas = $_POST["ananas"];
-  $kaas = $_POST["kaas"];
-  $salami = $_POST["salami"];
-  $champignons = $_POST["champignons"];
-  $knoflooksaus = $_POST["knoflooksaus"];
+  if(isset($_POST["tomatensaus"]))
+    $tomatensaus = $_POST["tomatensaus"];
+  if(isset($_POST["ananas"]))
+    $ananas = $_POST["ananas"];
+  if(isset($_POST["tomatensaus"]))
+    $kaas = $_POST["kaas"];
+  if(isset($_POST["tomatensaus"]))
+    $salami = $_POST["salami"];
+  if(isset($_POST["tomatensaus"]))
+    $champignons = $_POST["champignons"];
+  if(isset($_POST["tomatensaus"]))
+    $knoflooksaus = $_POST["knoflooksaus"];
 
-  $pizza2 = $_POST["pizza2"];
-  $tomatensaus2 = $_POST["tomatensaus2"];
-  $ananas2 = $_POST["ananas2"];
-  $kaas2 = $_POST["kaas2"];
-  $salami2 = $_POST["salami2"];
-  $champignons2 = $_POST["champignons2"];
-  $knoflooksaus2 = $_POST["knoflooksaus2"];
+
 
   echo "Uw bestelling is een pizza met: <br><br>";
   echo $tomatensaus . $kaas . $salami . $champignons . $ananas . $knoflooksaus;
