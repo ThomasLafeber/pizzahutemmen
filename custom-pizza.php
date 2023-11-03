@@ -26,7 +26,7 @@
 Wat wilt u op uw pizza? <br>
 <form action="custom-pizza.php" method="POST">
 
-  Tomatensaus<input type="checkbox" id="tomatensaus" name="tomatensaus" value="tomatensaus, " class="knopje"><br>
+  Tomatensaus<input type="checkbox" id="tomatensaus" name="tomatensaus" value="tomatensaus, " class="knopje" onclick="addKaas()"> <br>
    Kaas<input type="checkbox" id="kaas" name="kaas" value="kaas, " class="knopje"><br>
  Salami<input type="checkbox" id="salami" name="salami" value="salami, " class="knopje" onclick="addSalami()"><br>
   vis<input type="checkbox" id="vis" name="vis" value="vis, " class="knopje" onclick="addVis()"><br>
@@ -73,6 +73,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
                 <img id="ananass" src="img/ananass.jpg" style="display:none;">
                 <img id="salamie" src="img/salami.png" style="display:none;">
                 <img id="viss" src="img/vis.png" style="display:none;">
+                <img id="kaass" src="img/kaass.png" style="display:none;">
 
             
 
@@ -149,6 +150,14 @@ function addAnanas(){
   }
 }
 
+function addKaas(){
+  //Plaatje ananas toevoegen
+   if(document.getElementById("kaass").style.display == "none"){
+    document.getElementById("kaass").style.display = "inline";
+  }else{
+    document.getElementById("kaass").style.display = "none";
+  }
+}
 
 
 function salamiBijPlaatje(){
