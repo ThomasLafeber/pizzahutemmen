@@ -29,7 +29,7 @@ Wat wilt u op uw pizza? <br>
   Tomatensaus<input type="checkbox" id="tomatensaus" name="tomatensaus" value="tomatensaus, " class="knopje"><br>
    Kaas<input type="checkbox" id="kaas" name="kaas" value="kaas, " class="knopje"><br>
  Salami<input type="checkbox" id="salami" name="salami" value="salami, " class="knopje" onclick="wegVis()"><br>
-  vis<input type="checkbox" id="vis" name="vis" value="vis, " class="knopje" onclick="wegSal()"><br>
+  Vis<input type="checkbox" id="vis" name="vis" value="vis, " class="knopje" onclick="wegSal()"><br>
    Champignons<input type="checkbox" id="champignons" name="champignons" value=" champignons, " class="knopje"><br>
   Ananas<input type="checkbox" id="ananas" name="ananas" value="ananas, " class="knopje" onclick="anasbij()"><br>
   Knoflooksaus<input type="checkbox" id="knoflooksaus" name="knoflooksaus" value="knoflooksaus, " class="knopje"><br><br>
