@@ -65,7 +65,7 @@
 
                 <div style="display: flex;">
 
-                    <a href="#menu" class="btn">Bekijk ons menu <span>❯</span></a>
+                    <a href="menu.php" class="btn">Bekijk ons menu <span>❯</span></a>
 
                     <a href="custom-pizza.php" class="btn" style="margin-left: 1em;">Maak je eigen pizza
 
@@ -91,21 +91,16 @@
 
     </header>
 
- <footer>
-<div id="main">
- <div> </div>
- <div> <br> Creator of the website <br><br> <a style="text-decoration: none;" href="mailto:133582@hondsrugcollege.nl">Jonah van der Lugt</a> <br> <a style="text-decoration: none;" href="mailto:133271@hondsrugcollege.nl">Thomas Lafeber</a> <br> <a style="text-decoration: none;" href="mailto:133041@hondsrugcollege.nl">Mees Herr</a> <br><br>
- </div>
- <div style="text-decoration: none;"> <br>Owner PH-emmen  <br><br> <a style="text-decoration: none;" href="mailto:SmiR@hondsrugcollege.nl"> Rob </a> 
- </div>
- <div style="text-decoration: none;"> <br>Locatie <br><br> <a> Emmalaan 25 </a> 
- </div>
- <div style="text-decoration: none;"> <br>Socials <br><br> <a style="text-decoration: none;" href="https://www.pizzahut.be/nl">Officiële Pizza Hut </a>
- </div>
- <div> </div>
+  <footer>
+ ‎<div id="main">
+<div> </div>
+<div> <br> Creator of the website <br><br> <a style="text-decoration: none;" href="mailto:133582@hondsrugcollege.nl">Jonah van der Lugt</a> <br> <a style="text-decoration: none;" href="mailto:133271@hondsrugcollege.nl">Thomas Lafeber</a> <br> <a style="text-decoration: none;" href="mailto:133041@hondsrugcollege.nl">Mees Herr</a> <br><br></div>
+<div style="text-decoration: none;"> <br>Owner PH-emmen  <br><br> <a style="text-decoration: none;" href="mailto:SmiR@hondsrugcollege.nl"> Rob </a> </div>
+<div style="text-decoration: none;"> <br>Locatie <br><br> <a> Emmalaan 25 </a> </div>
+<div style="text-decoration: none;"> <br>Socials <br><br> <a style="text-decoration: none;" href="https://www.pizzahut.be/nl">Officiële Pizza Hut </a></div> 
+<div> </div>
 </div>
 </footer>
-
 </body>
 
  
