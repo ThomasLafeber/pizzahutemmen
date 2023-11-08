@@ -19,16 +19,36 @@
             <li><a href="custom-pizza.php" class="btn secondary small">Maak je eigen pizza <span>❯</span></a></li>
         </ul>
     </navbar>
-<footer>
-‎<div id="main">
+
+<div class="parent">
+<div class="div1"> </div>
+<div class="div2"> </div>
+<div class="div3"> </div>
+<div class="div4"> </div>
+<div class="div5"> </div>
+<div class="div6"> </div>
+<div class="div7"> </div>
+<div class="div8"> </div>
+<div class="div9"> </div>
+<div class="div10"> </div>
+<div class="div11"> </div>
+<div class="div12"> </div>
+<div class="div13"> </div>
+<div class="div14"> </div>
+<div class="div15"> </div>
+</div>
+
+    <footer>
+<div id="main">
 <div> </div>
-<div> <br> <b> Creator of the website </b> <br><br> <a style="text-decoration: none;" href="mailto:133582@hondsrugcollege.nl">Jonah van der Lugt</a> <br> <a style="text-decoration: none;" href="mailto:133271@hondsrugcollege.nl">Thomas Lafeber</a> <br> <a style="text-decoration: none;" href="mailto:133041@hondsrugcollege.nl">Mees Herr</a> <br><br></div>
-<div style="text-decoration: none;"> <br><b>Owner PH-emmen</b>  <br><br> <a style="text-decoration: none;" href="mailto:SmiR@hondsrugcollege.nl"> Rob </a> </div>
-<div style="text-decoration: none;"> <br><b>Locatie</b> <br><br> <a> Emmalaan 25 </a> </div>
-<div style="text-decoration: none;"> <br><b>Socials</b> <br><br> <a style="text-decoration: none;" href="https://www.pizzahut.be/nl">Officiële Pizza Hut </a></div> 
+<div> <br> Creator of the website <br><br> <a style="text-decoration: none;" href="mailto:133582@hondsrugcollege.nl">Jonah van der Lugt</a> <br> <a style="text-decoration: none;" href="mailto:133271@hondsrugcollege.nl">Thomas Lafeber</a> <br> <a style="text-decoration: none;" href="mailto:133041@hondsrugcollege.nl">Mees Herr</a> <br><br></div>
+<div style="text-decoration: none;"> <br>Owner PH-emmen  <br><br> <a style="text-decoration: none;" href="mailto:SmiR@hondsrugcollege.nl"> Rob </a> </div>
+<div style="text-decoration: none;"> <br>Locatie <br><br> <a> Emmalaan 25 </a> </div>
+<div style="text-decoration: none;"> <br>Socials <br><br> <a style="text-decoration: none;" href="https://www.pizzahut.be/nl">Officiële Pizza Hut </a></div> 
 <div> </div>
 </div>
 </footer>
+
     </body>
 
     </html>
