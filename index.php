@@ -10,6 +10,8 @@
 
     <title>Pizza Hut Emmen</title>
 
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,6 +45,7 @@
             <li><a href="index.php" class="active">Home</a></li>
 
              <li><a href="menu.php">Menu</a></li>
+
 
 
             <li><a href="contact.html">Contact</a></li>
