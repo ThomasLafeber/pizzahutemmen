@@ -24,8 +24,7 @@
 Wat wilt u op uw pizza? <br>
 <form action="custom-pizza.php" method="POST">
 
-  Tomatensaus <input type="checkbox" id="tomatensaus" name="tomatensaus" value="tomatensaus" class="knopje"><br>
-  Tomatensaus <input type="checkbox" id="tomatensaus" name="tomatensaus" value="tomatensaus, " class="knopje"><br>
+  Tomatensaus <input type="checkbox" id="tomatensaus" name="tomatensaus" value="tomatensaus" class="knopje" onclick="addTom()"><br>
    Kaas<input type="checkbox" id="kaas" name="kaas" value="kaas, " class="knopje" onclick="addKaas()"><br>
  Salami<input type="checkbox" id="salami" name="salami" value="salami, " class="knopje" onclick="addSalami()"><br>
   Vis<input type="checkbox" id="vis" name="vis" value="vis, " class="knopje" onclick="addVis()"><br>
@@ -66,13 +65,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
                 <img id="salamie" src="img/salami.png" style="display:none;">
                 <img id="viss" src="img/vis.png" style="display:none;">
                 <img id="kaass" src="img/kaass.jpg" style="display:none;">
+                <img id="kaass" src="img/tom.jfif" style="display:none;">
             
                       
             </div> 
         </div>
 </header>
-  <footer>
- ‎<div id="main">
+<footer>
+‎<div id="main">
 <div> </div>
 <div> <br> <b> Creators of the website </b> <br><br> <a style="text-decoration: none;" href="mailto:133582@hondsrugcollege.nl">Jonah van der Lugt</a> <br> <a style="text-decoration: none;" href="mailto:133271@hondsrugcollege.nl">Thomas Lafeber</a> <br> <a style="text-decoration: none;" href="mailto:133041@hondsrugcollege.nl">Mees Herr</a> <br><br></div>
 <div style="text-decoration: none;"> <br><b>Owner PH-emmen</b>  <br><br> <a style="text-decoration: none;" href="mailto:SmiR@hondsrugcollege.nl"> Rob </a> </div>
@@ -141,6 +141,17 @@ function addKaas()
   {
     document.getElementById("kaass").style.display = "none";
   }
+}
+function addTom()
+{
+  //Plaatje ananas toevoegen
+   if(document.getElementById("tom").style.display == "none")
+   {
+    document.getElementById("tom").style.display = "inline";
+   }else
+   {
+    document.getElementById("tom").style.display = "none";
+   }
 }
 function salamiBijPlaatje(){
   
