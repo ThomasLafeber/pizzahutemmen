@@ -154,7 +154,8 @@ function addTom()
    {
     document.getElementById("tom").style.display = "none";
    }
-   function addChamp()
+}
+ function addChamp()
 {
   //Plaatje ananas toevoegen
    if(document.getElementById("champ").style.display == "none")
