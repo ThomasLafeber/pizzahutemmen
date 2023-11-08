@@ -65,7 +65,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
                 <img id="salamie" src="img/salami.png" style="display:none;">
                 <img id="viss" src="img/vis.png" style="display:none;">
                 <img id="kaass" src="img/kaass.jpg" style="display:none;">
-                <img id="kaass" src="img/tom.jfif" style="display:none;">
+                <img id="tom" src="img/tom.jfif" style="display:none;">
             
                       
             </div> 
