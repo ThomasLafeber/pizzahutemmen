@@ -229,3 +229,13 @@ header p {
     top: 101px;
 
 }
+#champ{
+    display: none;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    z-index: 10;
+    left: 226px;
+    top: 101px;
+
+}
