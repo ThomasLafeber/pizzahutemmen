@@ -207,3 +207,25 @@ header p {
     top: 101px;
 
 }
+
+#kaass{
+    display: none;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    z-index: 10;
+    left: 226px;
+    top: 101px;
+
+}
+
+#tom{
+    display: none;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    z-index: 10;
+    left: 226px;
+    top: 101px;
+
+}
