@@ -30,7 +30,7 @@ Wat wilt u op uw pizza? <br>
   Vis<input type="checkbox" id="vis" name="vis" value="vis, " class="knopje" onclick="addVis()"><br>
    Champignons<input type="checkbox" id="champignons" name="champignons" value=" champignons, " class="knopje" onclick="addChamp()"><br>
   Ananas<input type="checkbox" id="ananas" name="ananas" value="ananas, " class="knopje" onclick="addAnanas()"><br>
-  Knoflooksaus<input type="checkbox" id="knoflooksaus" name="knoflooksaus" value="knoflooksaus, " class="knopje"><br><br>
+  Knoflooksaus<input type="checkbox" id="knoflooksaus" name="knoflooksaus" value="knoflooksaus, " class="knopje" onclick="addKnof()"><br><br>
   
   <input type="submit"  id="submit" name="verstuur"><br>
 </form>
@@ -67,6 +67,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
                 <img id="kaass" src="img/kaass.jpg" style="display:none;">
                 <img id="tom" src="img/tom.jfif" style="display:none;">
                 <img id="champ" src="img/champ.jpg" style="display:none;">
+                <img id="knof" src="img/knof.jpg" style="display:none;">
               
             
                       
@@ -164,6 +165,17 @@ function addTom()
    }else
    {
     document.getElementById("champ").style.display = "none";
+   }
+}
+ function addKnof()
+{
+  //Plaatje ananas toevoegen
+   if(document.getElementById("knof").style.display == "none")
+   {
+    document.getElementById("knof").style.display = "inline";
+   }else
+   {
+    document.getElementById("knof").style.display = "none";
    }
 }
 function salamiBijPlaatje(){
