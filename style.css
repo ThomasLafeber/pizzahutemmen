@@ -206,8 +206,8 @@ header p {
     height: 100px;
     position: relative;
     z-index: 10;
-    left: 324px;
-    top: 140;
+    left: 156px;
+    top: 151;
 
 }
 #salamie{
@@ -216,8 +216,8 @@ header p {
     height: 100px;
     position: relative;
     z-index: 10;
-    left: 324px;
-    top: 140;
+    left: 166px;
+    top: 101;
 
 }
 
@@ -227,7 +227,7 @@ header p {
     height: 100px;
     position: relative;
     z-index: 10;
-    left: 226px;
+    left: 176px;
     top: 101px;
 
 }
@@ -238,7 +238,7 @@ header p {
     height: 100px;
     position: relative;
     z-index: 10;
-    left: 226px;
+    left: 186px;
     top: 101px;
 
 }
@@ -249,7 +249,7 @@ header p {
     height: 100px;
     position: relative;
     z-index: 10;
-    left: 226px;
+    left: 196px;
     top: 101px;
 
 }
@@ -259,17 +259,17 @@ header p {
     height: 100px;
     position: relative;
     z-index: 10;
-    left: 226px;
-    top: 101px;
+    left: 206px;
+    top: 151px;
 
 }
-#champ{
+#knof{
     display: none;
     width: 100px;
     height: 100px;
     position: relative;
     z-index: 10;
-    left: 226px;
-    top: 101px;
+    left: 216px;
+    top: 151px;
 
 }
