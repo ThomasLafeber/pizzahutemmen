@@ -178,11 +178,18 @@ header p {
 
 .parent {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    height: 700px;
+    width: 100%;
+    margin: 1em 1em;
     }
+    
+.parent div {
+    border: 2px outset black;
+}
     
     .div1 { grid-area: 1 / 1 / 2 / 2; }
     .div2 { grid-area: 1 / 2 / 2 / 3; }
