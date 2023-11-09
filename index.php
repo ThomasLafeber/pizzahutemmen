@@ -95,7 +95,7 @@
     </header>
 
 <footer>
-‎<div id="main">
+<div id="main">
 <div> </div>
 <div> <br> <b> Creator of the website </b> <br><br> <a style="text-decoration: none;" href="mailto:133582@hondsrugcollege.nl">Jonah van der Lugt</a> <br> <a style="text-decoration: none;" href="mailto:133271@hondsrugcollege.nl">Thomas Lafeber</a> <br> <a style="text-decoration: none;" href="mailto:133041@hondsrugcollege.nl">Mees Herr</a> <br><br></div>
 <div style="text-decoration: none;"> <br><b>Owner PH-emmen</b>  <br><br> <a style="text-decoration: none;" href="mailto:SmiR@hondsrugcollege.nl"> Rob </a> </div>
