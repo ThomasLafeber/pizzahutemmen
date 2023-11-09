@@ -213,8 +213,8 @@ header p {
     height: 100px;
     position: relative;
     z-index: 10;
-    left: 156px;
-    top: 151;
+    left: -127;
+    top: 211;
 
 }
 #salamie{
@@ -266,8 +266,8 @@ header p {
     height: 100px;
     position: relative;
     z-index: 10;
-    left: 206px;
-    top: 151px;
+    left: -137px;
+    top: 211px;
 
 }
 #knof{
@@ -276,7 +276,7 @@ header p {
     height: 100px;
     position: relative;
     z-index: 10;
-    left: 216px;
-    top: 151px;
+    left: -147px;
+    top: 211px;
 
 }
