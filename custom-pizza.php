@@ -13,7 +13,7 @@
         <ul>
             <li><a href="index.php">Home</a></li>
              <li><a href="menu.php">Menu</a></li>
-            <li><a href="contact.html">Contact</a></li>
+          
             <li><a href="custom-pizza.php" class="btn secondary small">Maak je eigen pizza <span>❯</span></a></li>
         </ul>
     </navbar>

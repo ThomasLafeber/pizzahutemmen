@@ -48,7 +48,7 @@
 
 
 
-            <li><a href="contact.html">Contact</a></li>
+        
 
             <li><a href="custom-pizza.php" class="btn small">Maak je eigen pizza <span>❯</span></a></li>
 
