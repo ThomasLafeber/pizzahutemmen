@@ -62,7 +62,7 @@
 
             <div class="inner">
 
-                <h1>Welkom bij pizzahut <span>Emmen</span></h1>
+                <h1>Welkom bij Pizza Hut <span>Emmen</span></h1>
 
                 <p>De beste pizza's van Nederland</p>
 
