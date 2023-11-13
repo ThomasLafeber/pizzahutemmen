@@ -212,8 +212,8 @@ header p {
     height: 100px;
     position: fixed;
     z-index: 10;
-    left: 186;
-    top: 211;
+    left: 755px;
+    top: 246px;
 
 }
 #salamie{
@@ -222,8 +222,8 @@ header p {
     height: 100px;
     position: fixed;
     z-index: 10;
-    left: 166px;
-    top: 101;
+    left: 650px;
+    top: 350px;
 
 }
 
@@ -233,8 +233,8 @@ header p {
     height: 100px;
     position: fixed;
     z-index: 10;
-    left: 176px;
-    top: 101px;
+    left: 650px;
+    top: 350px;
 
 }
 
@@ -244,8 +244,8 @@ header p {
     height: 100px;
     position: fixed;
     z-index: 10;
-    left: 186px;
-    top: 101px;
+    left: 650px;
+    top: 143px;
 
 }
 
@@ -255,8 +255,8 @@ header p {
     height: 100px;
     position: fixed;
     z-index: 10;
-    left: 196px;
-    top: 101px;
+    left: 650px;
+    top: 246px;
 
 }
 #champ{
@@ -265,8 +265,8 @@ header p {
     height: 100px;
     position: fixed;
     z-index: 10;
-    left: 196px;
-    top: 211px;
+    left: 755px;
+    top: 143px;
 
 }
 #knof{
@@ -275,7 +275,7 @@ header p {
     height: 100px;
     position: fixed;
     z-index: 10;
-    left: 166px;
-    top: 211px;
+    left: 755px;
+    top: 350px;
 
 }
